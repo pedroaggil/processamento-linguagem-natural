@@ -1,0 +1,229 @@
+PLN: Instruir o computador a lidar com a língua, ou, como se diz informalmente, a "ler e escrever".
+
+	Interpretação de textos
+	Tradução automática
+	Revisão gramatical
+	Busca de respostas para perguntas/chatbox
+	Sumarização (resumo automático de textos)
+	Auxílio a escrita e a aprendizado de línguas
+	etc.
+
+Multidisciplinar:
+
+	Computação
+	Linguística
+
+Língua natural: língua humana; em oposição às línguas artificias (de programação, matemática, lógica etc.)
+
+Diferença entre língua e linguagem:
+
+	Linguagem: capacidade humana de comunicação e suas manifestações de forma verbal ou não (fala, gestos, música, dança, pintura, sorriso etc. Envolve o aparato físico e mental/cognitivo).
+
+	Língua: código de comunicação utilizado por uma comunidade, com suas regras específicas (Português, Inglês, LIBRAS etc).
+
+Portanto, é o correto estabelecer "PLN" como "Processamento de LÍNGUA Natural", ao invés do usado "Processamento de LINGUAGEM Natural"? Não necessariamente; no Brasil, que é falante da língua portuguesa, ambos os termos são corretos. O fato é que ele vem do inglês "Language", que é comumente traduzido como "linguagem" e por este motivo está sendo mantido. Contudo, o uso de "língua" é mais adequado por a PLN trabalhar com o código e não com a habilidade em si.
+	
+	Pode ser visto como "Linguística Computacional", "Mecanolinguística", "Processamento de Dados e Linguagem Automática" e "Engenharia das Línguas Naturais" também.
+
+É tradicionalmente visto como uma subárea da Inteligência Artificial & Computação, visto que a habilidade linguística é um tipo de inteligência.
+
+História:
+
+	Nasceu na 2° GM como a tradução automática para traduzir as ordens nazistas para uso dos EUA, como estratégias, alvos etc. (ps: recomenda-se o filme "Jogo da Imitação").
+
+	Desenvolveu-se a partir de então com a globalização, internet, tecnologia da informação, com a Google etc. 
+
+	Recentemente, cita-se a web, redes sociais, smartphones, big data e ciência de dados e deep learning.
+
+A PLN vem para auxiliar as tarefas humanas
+
+	(Ainda) Não substitui o humano
+
+		Não é possível "automatizar" toda a língua, apenas alguns de seus aspectos
+
+		O computador (ainda) é uma máquna estúpida (ele faz somente o que os humanos mandam fazer)!
+
+	"Conversar" com uma máquina não é tão difícil
+
+	Fazer a máquina "entender" é difícil (talvez impossível).
+
+		Futuro distante
+
+			Muitas pesquisas
+
+				Programas especializados
+
+				Recursos linguísticos e linguístico-computacionais
+
+A sugestão de possíveis sinônimos, revisão ortográfica e gramatical e outros softwares são exemplos de programas úteis para a PLN.
+
+De forma básica, é necessário para entender uma língua:
+	
+	Conhecer as palavras e como elas são formadas,
+	Saber o significado das palavras
+	Como compor frases
+	Como referenciar entidades do mundo
+	Como conectar frases
+	Protocolos de comunicação na língua/cultura
+	etc.
+
+A língua possui vários níveis de conhecimento
+	
+	São tradicionalmentes distinguidos em PLN, apesar dos limites entre eles serem nebulosos na maioria dos casos
+
+	http://prntscr.com/1rz8h8l
+
+		Serão focados no curso a semântica, sintaxe e morfologia
+
+			Morfologia: como a palavra é construída, os componentes de formação
+
+				Morfema, raiz, afixo (prefixo, sufixo etc.), vogal temática, desinência
+
+					Stemming
+
+					Lematização
+
+			Interação entre morfologia e sintaxe: classes gramaticais ou etiquetas morfossintáticas
+
+				Substantivo/nome, verbo, adjetivo, advérbio, pronome, preposição, conjunção, interjeição etc.
+
+				Exemplo: http://prntscr.com/1rz9809
+
+			Sintaxe: como as sentenças são formadas, como as palavras podem se combinar
+
+				Função: sujeito, predicado, objetos, predicativos etc.
+
+				Estruturação/constituição: sintagma nominal, sintagma verbal etc.
+
+				Exemplo: http://prntscr.com/1rz9jgz
+
+			Semântica: significado da palavra
+
+				Palavras, expressões, orações, sentenças, textos etc.
+
+				Metáforas, figuras de linguagem, expressões idiomáticas, polissemia etc.
+
+					Qual a diferença entre polissemia e homonímia?
+
+						banco (assento vs. instituição financeira) é polissêmico, mas manga (camisa vs. fruta) não é
+
+					Exemplo: http://prntscr.com/1rz9wmd
+
+			Em níveis maiores, temos a pragmática (língua em uso, interação, contexto - fatores como força, educação, hierarquia, crença, cooperação, atitude etc.) e o discurso (aquilo que está além da sentença).
+
+				Se pra nós é difícil enteder, imagina para a máquina?
+
+		Considerações para uso por um computador
+
+			Os níveis de conhecimento precisam ser representados (formalizados) e manipulados automaticamente
+
+			Interação entre os níveis
+
+				Morfologia e sintaxe
+				Sintaxe e semântica
+				Semântica e discurso
+
+			Interação entre os níveis mais distantes
+
+				Morfologia e semântica (goleiro e porteiro vs. padeiro)
+				Morfologia e pragmática (são carlense vs. são carlino, laranjada e limonada vs. cajuada)
+				Sintaxe e discurso (subordinadas)
+
+			Os humanos lidam naturalmente com ambiguidade, irregularidade, vagueza, variedade etc., mas as máquinas ainda não
+
+Fases do trabalho; exemplo: http://prntscr.com/1rzbdp1
+
+	Fase linguística: teorias e dados linguísticos
+	F. Representacional: formalismos/esquemas de representação
+	F. Implementacional: métodos e modelos computacionais
+
+	Aspectos da língua que são possíveis capturar e automatizar
+
+Classificação: 
+	
+	Recursos, ferramentas e aplicações
+
+	Recursos:
+
+		Córpus (conjunto de dados, próximo a dataset)
+
+			Anotações: humana e/ou automática
+				XML, XCES, TEI etc.
+
+			Paralelo, comparável, alinhado etc.
+
+		Dicionários monolíngues e bilíngues (machine readable vs. machine tractable)
+
+		Léxicos (vários paradigmas)
+
+	Ferramentas:
+
+		Segmentadores textuais: palavras (tokenizador), sentenças, parágrafos, tópicos
+
+		Stemmers, lematizadores, nominalizadores
+
+		Etiquetadores morfossintático (taggers)
+
+		Analisadores sintáticos shallow (chunkers) e deep (parsers)
+
+		Analisadores semânticos e discursivos
+
+		Alinhadores textuais: lexicais, sentenciais etc.
+
+		Concordanceadores, word counting, ...
+
+		Classificadores de polaridade
+
+		etc.
+
+	Aplicações:
+
+		Tradutores automáticos
+
+		Revisores ortográficos e gramaticais
+
+		Ferramentas de auxílio à escrita
+
+		Sumarizadores automáticos
+
+		Simplificadores textuais
+
+		Minerador de opinião
+
+		etc.
+
+	! Atenção
+		Classificação difusa, às vezes
+		Dependente do uso
+			Sumarizador como passo intermediário para recuperação da informação -> ferramenta
+			Dicionário eletrônico para consulta -> aplicação
+
+PLN e áreas correlatas:
+
+	Limites cada vez mais tênues entre PLN e outras áreas
+
+		Recuperação de informação
+
+		Banco de dados
+
+		Interação humano-computador
+
+		Mineração de textos
+
+		Linguística de córpus
+
+Polissemia: palavras diferentes mas com escrita/fonética semelhantes/idênticas, mas com algo em comum
+
+	Exemplo: as variações da palavra BANCO, como o banco (assento), banco de sangue, banco de areia, banco (relativo à instituição financeira), banco de provas etc.
+
+		É uma polissemia visto que todas abrangem uma semelhança, que é o DEPÓSITO. Todas são relativas a um depósito: depósito de dinheiro, de sangue, de areia, de provas, de humanos (no caso do assento) etc.
+
+		É a mesma palavra, mas dependendo do contexto são diferentes, embora com uma base comum.
+
+Homonímia: palavras diferentes mas com escrita/fonética semelhantes/idênticas.
+
+	Exemplo: a palavra "manga", que pode ser uma fruta ou um item de uma camisa/camiseta.
+
+		É uma homonímia pelo fato de não identificarmos uma primitiva de significado em comum para elas; são a mesma palavra, mas dependendo do contexto são absolutamente diferentes.
+
+Muitas vezes, não conhecemos a origem das palavras - nesse caso, a palavra "manga" pode ter uma primitiva e significado que até então desconhecíamos, e neste momento a PLN deverá se atualizar ao fato. Isso se dá por a história ter se perdido ao longo do tempo, sendo possível recuperá-las em algum momento por N motivos.
